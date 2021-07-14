@@ -1,0 +1,35 @@
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#" id="menu-toggle"><i class="fa fa-bars"></i></a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" data-toogle="pill" href="http://<?php echo $_SERVER["SERVER_NAME"];?>/db_soal/index.php">Home</a>
+      </li>
+	<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Tests</a>
+		<div class="dropdown-menu">
+		<a class="dropdown-item" data-toogle="tab" href="http://<?php echo $_SERVER["SERVER_NAME"];?>/db_soal/ambilsoal.php">Quiz Test</a>
+		<a class="dropdown-item" data-toogle="tab" href="http://<?php echo $_SERVER["SERVER_NAME"];?>/db_soal/ambilsoalt.php">TOEIC Test</a>
+		</div>
+	</li>
+	   <!-- Dropdown -->
+    <li class="nav-item">
+				<a class="nav-link active" data-toogle="pill" href="http://<?php echo $_SERVER["SERVER_NAME"];?>/db_soal/content/materi.php">Materi</a>
+			</li>
+		</ul>
+  </div>
+	<div class="custom-control custom-switch" style="float:right">
+		<input type="checkbox" class="custom-control-input" id="switch1" name="example">
+		<label class="custom-control-label text-light" for="switch1">Turn Light on/off</label>
+	</div>
+</nav> 

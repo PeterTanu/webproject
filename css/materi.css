@@ -1,0 +1,39 @@
+.cTable th{
+	text-align:center;
+}
+
+.cTable th, .cTable td{
+	padding: 5px 10px;
+	border:1px solid black;
+}
+
+.cTabled {
+	width:600px;
+}
+
+.cTabled th, .cTabled td{
+	padding: 5px 10px;
+	text-align:center;
+	border:1px solid black;
+}
+
+body {
+	background:DarkGrey;
+}
+
+th{
+	background:DimGrey;
+}
+
+ul{
+	list-style-type:disc;
+}
+
+.table-dark {
+	width:600px;
+}
+
+.table-dark th, .table-dark td{
+	padding: 5px 5px;
+	width:25%;
+}
